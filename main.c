@@ -34,36 +34,3 @@ int main(){
     table(1);
     return 0;
 }
-
-
-
-/*int main() {
-
-    int row,col;
-    
-    printf("Hex:\n");
-    
-    for (row = 1; row < 17; ++row )
-        {
-            for(col = 1; col < 17; ++col)
-                {
-                    printf("%03x ", row * col);
-                    
-                }
-            printf("\n");
-        }
-    
-    printf("\n");
-    printf("Dec:\n");
-    
-    for (row = 1; row < 17; ++row )
-    {
-        for(col = 1; col < 17; ++col)
-        {
-            printf("%03d ", row * col);
-            
-        }
-        printf("\n");
-    }
-    return 0;
- }*/
